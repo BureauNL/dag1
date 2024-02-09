@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            /*Class selector*/
+            .header3 {
+                color:green;
+            }
+            .header4 {
+                color:blue;
+            }
+            /*ID selector*/
+            #plaatje-1{
+                border:2px dashed red;
+            }
+        </style>
+
+        <script>
+            var a = 6;
+            let b = 7;
+        </script>
+    </head>
+    <body>
+        <!-- Headers -->
+        <h1>Oefening 1</h1>
+        <h2>Header 2</h2>
+        <h3 class="header3">Header 3</h3>
+
+        <!-- Teksten -->
+        <p>Paragraaf 1</p>
+        <p>Paragraaf 2</p>
+
+        <span>Span 1</span>
+        <span>Span 2</span>
+        
+        <br>
+        <img id="plaatje-1" src="mijnafbeelding.jpg" width="800" height="120">
+
+        <br>
+        <!-- Deel twee oefening -->
+        <a href="https://www.nu.nl/">Ga naar Google</a>
+
+        <br>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <ol>
+            <li>Nummer 1</li>
+            <li>Nummer 2</li>
+        </ol>
+
+        <table style = "border:1px solid green;">
+            <tr style = "background-color: red;">
+                <td>Groep 1</td>
+                <td>Groep 2</td>
+            </tr>
+            <tr>
+                <td>Frank</td>
+                <td>Patrick</td>
+            </tr>
+            <tr>
+                <td>Tjaisha</td>
+                <td>Vedra</td>
+            </tr>
+        </table>
+
+        <button type="button" onclick = "addition()"> Click me! </button>
+
+        <script>
+            function addition(){
+                console.log(a+b);
+            }
+        </script>
+    </body>
+</html>
